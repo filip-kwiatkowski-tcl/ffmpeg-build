@@ -173,7 +173,6 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-demuxer=mp3
     --enable-encoder=mp3
     --enable-decoder=mp3
-    --enable-libmp3lame
 
     --enable-parser=aac
     --enable-parser=aac_latm
