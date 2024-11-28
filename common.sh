@@ -11,24 +11,24 @@ FFMPEG_CONFIGURE_FLAGS=(
 
     --disable-doc
     --disable-debug
-    --disable-avdevice
-    --disable-swscale
+    #--disable-avdevice
+    #--disable-swscale
     --disable-programs
     --enable-ffmpeg
     --enable-ffprobe
     --disable-network
     --disable-muxers
     --disable-demuxers
-    --disable-zlib
-    --disable-lzma
-    --disable-bzlib
-    --disable-iconv
-    --disable-libxcb
-    --disable-bsfs
+    #--disable-zlib
+    #--disable-lzma
+    #--disable-bzlib
+    #--disable-iconv
+    #--disable-libxcb
+    #--disable-bsfs
     #--disable-filters
-    --disable-parsers
-    --disable-indevs
-    --disable-outdevs
+    #--disable-parsers
+    #--disable-indevs
+    #--disable-outdevs
     --disable-encoders
     --disable-decoders
     --disable-hwaccels
