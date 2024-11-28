@@ -34,7 +34,7 @@ FFMPEG_CONFIGURE_FLAGS=(
     --disable-hwaccels
     --disable-nvenc
     --disable-videotoolbox
-    --disable-audiotoolbox
+    # --disable-audiotoolbox
 
     --disable-filters
     --enable-filter=aformat
@@ -169,15 +169,6 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-decoder=dsd_lsbf_planar
     --enable-decoder=dsd_msbf_planar
 
-    --enable-muxer=mp3
-    --enable-demuxer=mp3
-    --enable-encoder=mp3
-    --enable-encoder=libmp3lame
-    --enable-decoder=mp3
-    --enable-libmp3lame
-    --extra-libs="-lpthread -lm"
-    --enable-gpl
-
     --enable-parser=aac
     --enable-parser=aac_latm
     --enable-parser=ac3
@@ -188,4 +179,19 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-parser=mpegaudio
     --enable-parser=tak
     --enable-parser=vorbis
+
+    ###
+    
+    --enable-muxer=mp3
+    --enable-demuxer=mp3
+    --enable-encoder=mp3
+    --enable-encoder=libmp3lame
+    --enable-decoder=mp3
+    --enable-libmp3lame
+    --extra-libs="-lpthread -lm"
+    --enable-gpl
+
+    --extra-cflags="-Os"
+    --extra-ldflags="-static"
+    
 )
