@@ -191,6 +191,10 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-libmp3lame
     --extra-libs="-lpthread -lm"
     --enable-gpl
+    --enable-nonfree
+    --enable-libavformat
+    --enable-libavcodec
+    --enable-libavutil
 
     --extra-cflags="-Os"
     --extra-ldflags="-static"
