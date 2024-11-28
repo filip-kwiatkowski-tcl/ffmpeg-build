@@ -194,7 +194,7 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-nonfree
 #    --enable-libavformat
 #    --enable-libavcodec
-    --enable-libavutil
+#    --enable-libavutil
 
     --extra-cflags="-Os"
     --extra-ldflags="-static"
