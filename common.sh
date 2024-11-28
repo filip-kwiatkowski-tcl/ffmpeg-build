@@ -25,7 +25,7 @@ FFMPEG_CONFIGURE_FLAGS=(
     --disable-iconv
     --disable-libxcb
     --disable-bsfs
-    --disable-filters
+    #--disable-filters
     --disable-parsers
     --disable-indevs
     --disable-outdevs
@@ -44,6 +44,7 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-filter=null
     --enable-filter=setpts
     --enable-filter=trim
+    --enable-filter=aresample
 
     --disable-protocols
     --enable-protocol=file
