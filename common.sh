@@ -177,7 +177,6 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-libmp3lame
     --extra-libs="-lpthread -lm"
     --enable-gpl
-    --enable-shared
 
     --enable-parser=aac
     --enable-parser=aac_latm
