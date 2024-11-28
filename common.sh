@@ -36,7 +36,7 @@ FFMPEG_CONFIGURE_FLAGS=(
     --disable-videotoolbox
     # --disable-audiotoolbox
 
-    --disable-filters
+    #--disable-filters
     --enable-filter=aformat
     --enable-filter=anull
     --enable-filter=atrim
