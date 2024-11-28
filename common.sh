@@ -193,7 +193,7 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-gpl
     --enable-nonfree
 #    --enable-libavformat
-    --enable-libavcodec
+#    --enable-libavcodec
     --enable-libavutil
 
     --extra-cflags="-Os"
