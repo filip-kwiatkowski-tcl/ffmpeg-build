@@ -174,6 +174,9 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-encoder=mp3
     --enable-decoder=mp3
     --enable-libmp3lame
+    --extra-libs="-lpthread -lm"
+    --enable-gpl
+    --enable-shared
 
     --enable-parser=aac
     --enable-parser=aac_latm
