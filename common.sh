@@ -201,6 +201,8 @@ FFMPEG_CONFIGURE_FLAGS=(
 #    --enable-libavcodec
 #    --enable-libavutil
 
+    --enable-encoder=wavpack
+
     --extra-cflags="-Os"
     --extra-ldflags="-static"
     
