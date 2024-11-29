@@ -19,7 +19,7 @@ FFMPEG_CONFIGURE_FLAGS=(
     --disable-network
     
     #--disable-muxers
-    -#-disable-demuxers
+    #--disable-demuxers
     
     #--disable-zlib
     #--disable-lzma
