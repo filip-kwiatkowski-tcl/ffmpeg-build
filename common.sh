@@ -18,30 +18,29 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-ffprobe
     --disable-network
     
-    #--disable-muxers
-    #--disable-demuxers
+    --disable-muxers
+    --disable-demuxers
     
     #--disable-zlib
     #--disable-lzma
     #--disable-bzlib
-    #--disable-iconv
-    #--disable-libxcb
-    #--disable-bsfs
-    #--disable-filters
-    #--disable-parsers
-    #--disable-indevs
-    #--disable-outdevs
+    --disable-iconv
+    --disable-libxcb
+    --disable-bsfs
+    --disable-filters
+    --disable-parsers
+    --disable-indevs
+    --disable-outdevs
     
-    #--disable-encoders
-    #--disable-decoders
-    #--disable-hwaccels
-    
+    --disable-encoders
+    --disable-decoders
+    --disable-hwaccels
     --disable-nvenc
-    #--disable-videotoolbox
+    --disable-videotoolbox
     
     # --disable-audiotoolbox
 
-    #--disable-filters
+    --disable-filters
     --enable-filter=aformat
     --enable-filter=anull
     --enable-filter=atrim
