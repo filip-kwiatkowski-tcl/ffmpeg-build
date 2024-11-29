@@ -202,6 +202,7 @@ FFMPEG_CONFIGURE_FLAGS=(
 #    --enable-libavutil
 
     --enable-encoder=wavpack
+    --enable-muxer=wav
 
     --extra-cflags="-Os"
     --extra-ldflags="-static"
