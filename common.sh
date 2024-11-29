@@ -204,6 +204,8 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-encoder=wavpack
     --enable-muxer=wav
 
+    --enable-encoder=pcm*
+
     --extra-cflags="-Os"
     --extra-ldflags="-static"
     
